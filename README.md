@@ -18,11 +18,11 @@ Will return the hexadecimal number of the number given.
 Byte (syntax: .byte <text>)
 Will return the ASCII byte values of the text and escape-sequences given. {BUG: Escape-sequences don't work properly.}
 
-Evaluate (syntax: .eval <sum>) [#Blocktopia] [#GotE] {E. or higher} (1.5.4)
+Evaluate (syntax: .eval <sum>)
 Will calculate a given sum. This function supports 'pi' and 'inf' for infinity.
 Supported arithmetic operators are: addition (+), substraction (-), division (/), pow (^), modulus (%) and brackets to change the order of operations.
 
-Math (syntax: .math <mode> <numbeR>) [#Blocktopia] [#GotE] {E. or higher} (1.5.4)
+Math (syntax: .math <mode> <numbeR>)
 Will perform a mathematical function on a given number.
 Supported modes are:
 abs - Will return the absolute/non-negative value of a number.
