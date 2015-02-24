@@ -49,10 +49,13 @@ Random (syntax: .random number/number)
 Will return a number inbetween the two specified.
 
 To-Be-Done in v1.6.0:
-+ Add a .ud function for Urban-Dictionary lookup. {IN-PROGRESS}
++ Add a .ud function for Urban-Dictionary lookup. {DONE}
 + Add a .wiki function for wikipedia lookup. {DONE}
-+ Add a .translate/.trans function for translation. {IN-PROGRESS}
++ Add a .translate/.trans function for translation. {DONE}
 + Add a .rev function to reverse strings. {DONE}
 + Fix .byte to show Escape-sequences correctly. {TO BE DONE}
 + Add .math functions to be directly available from .eval {DONE}
 + Add a .sudo command to execute Lua functions straight from IRC (WILL have some form of security!) {DONE}
++ Add a Automatic Link-Identifier {TO BE DONE}
++ Add a .y / .yt function for Youtube searches {TO BE DONE}
++ Add a .g function for Google searches {TO BE DONE}
