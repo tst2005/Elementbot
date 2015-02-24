@@ -6,23 +6,23 @@ Elementbot is an IRC bot written in the Lua programming language using the LuaSo
 Info (syntax: .?)
 Will return general info about the bot.
 
-Correction (syntax: .red <torep>/<rep> || ALT Syntax: s/<torep>/<rep>)
+Correction (syntax: .red torep/rep || ALT Syntax: s/<torep>/<rep>)
 Will replace 'torep' in the sender's last message and replace it with 'rep'.
 
-Seen (syntax: .seen <name>)
+Seen (syntax: .seen name)
 Will return when the specified user was last online (read: when they left.), and what they last said.
 
-Hex (syntax: .hex <number>)
+Hex (syntax: .hex number)
 Will return the hexadecimal number of the number given.
 
-Byte (syntax: .byte <text>)
+Byte (syntax: .byte text)
 Will return the ASCII byte values of the text and escape-sequences given. {BUG: Escape-sequences don't work properly.}
 
-Evaluate (syntax: .eval <sum>)
+Evaluate (syntax: .eval sum)
 Will calculate a given sum. This function supports 'pi' and 'inf' for infinity.
 Supported arithmetic operators are: addition (+), substraction (-), division (/), pow (^), modulus (%) and brackets to change the order of operations.
 
-Math (syntax: .math <mode> <numbeR>)
+Math (syntax: .math mode number)
 Will perform a mathematical function on a given number.
 Supported modes are:
 abs - Will return the absolute/non-negative value of a number.
@@ -36,16 +36,16 @@ exp/log - exp returns e (the base of natural logarithms) raised to the power the
 logt - Return the base 10 logarithm of a given number. The number must be positive.
 sqrt - Return the square root of a given number. Only non-negative arguments are allowed.
 
-Define (syntax: .def <word>)
+Define (syntax: .def word)
 Will return the definition for given word. Definitions are fetched from http://dictionary.reference.com
 
-Synonym (syntax: .syn <word>)
+Synonym (syntax: .syn word)
 Will return a list of synonyms of the given word. Synonyms are fetched from http://thesaurus.com
 
-Tell (syntax: .tell <recipient> <message>)
+Tell (syntax: .tell recipient message)
 Will leave a message for the specified recipient which they will receive upon joining the channel.
 
-Random (syntax: .random <number>/<number>)
+Random (syntax: .random number/number)
 Will return a number inbetween the two specified.
 
 To-Be-Done in v1.6.0:
