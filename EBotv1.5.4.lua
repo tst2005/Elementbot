@@ -1,8 +1,5 @@
 --Programmed in Lua 5.1.5 programming language.
 --This program uses the LuaSocket Library. http://w3.impa.br/~diego/software/luasocket/
-account = {name = "StandUser", rank = "E.", cuname = "StandUser", auth = false, pass = "Placehold3892"}
-accounts = {}
-accounts[3001] = {}
 accounts[3001].name = "ERROR"
 tell = {sender = "Elementbot", aerial = "Elementbot", message = "Default message. Obviously, something went wrong here!", date = "Error", read = true}
 tells = {}
