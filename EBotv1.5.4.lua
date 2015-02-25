@@ -400,10 +400,10 @@ while true do --Connection loop.
 end
 print("[PRESS ENTER AFTER FIRST PING]") --Now's your chance!
 io.stdin:read('*l')
-s:send("PRIVMSG Nickserv :identify Frillydresses\r\n\r\n") --Identify with nickserv.
+s:send("PRIVMSG Nickserv :identify <>\r\n\r\n") --Identify with nickserv.
 s:send("JOIN #elementbot\r\n\r\n") --Join main channel.
 --s:send("JOIN #blocktopia\r\n\r\n") --Disabled for development.
-s:send("PRIVMSG #elementbot :Elementbot v1.5.3 (STABLE)\r\n\r\n") --First testmessage.
+s:send("PRIVMSG #elementbot :Elementbot v1.5.4 (STABLE)\r\n\r\n") --First testmessage.
 seenread()
 while true do
 	local messcount = 0
